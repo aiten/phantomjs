@@ -35,6 +35,14 @@ PhantomJS needs not be used only as a stand-alone tool. Check also some excellen
 
 and many others [companion projects](http://code.google.com/p/phantomjs/wiki/WhoUsesPhantomJS).
 
+## Building
+
+On Ubuntu Linux 12.04, you need to install a number of development packages to compile phantomjs
+
+<code>sudo aptitude install libfreetype6-dev libssl-dev qt4-qmake libfontconfig-dev</code>
+
+Then simply run ./build.sh
+
 ## Questions?
 
 - Explore the complete [documentation](http://code.google.com/p/phantomjs/wiki/PhantomJS?tm=6).
